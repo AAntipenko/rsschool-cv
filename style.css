@@ -1,0 +1,113 @@
+  .cv {
+    height: 100%;
+    margin: auto;
+    padding: 0;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    color: black;
+    width: 80%;
+    background-color: black;
+  }
+  
+  /* Header */
+  header {
+    width: 100%;
+    height: 50px;
+    background-color:aquamarine;
+  }
+  .header__div {
+    margin-left: auto;
+    width: 120px;
+  }
+  .header__boby a {
+    padding: 14px 10px;
+    line-height: 50px;
+    color: black;
+  }
+  .header__boby a:hover {
+    background-color:darkgray;
+    color: white;
+  }
+  /* Body */
+  .photo__name__div {
+    width: 100%;
+    height: 200px;
+    background-color: beige;
+    display: inline-flex;
+  }
+
+  .name__section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .name__section_first {
+    margin-right: 5%;
+  }
+  .name__section_first,
+  .name__section_last {
+    font-size: 50px;
+  }
+
+  .name__section_last {
+    margin-left: 40%;
+  }
+  .photo__section {
+    float:right;
+    width:200px;
+    margin-left: auto;
+  }
+  .about__me__div {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border: 1px;
+    
+    display: inline;
+  }
+  .line__line {
+    display: inline;
+  }
+  .topics_div {
+    width: 30%;
+    font-size: 30px;
+    height: 120px;
+    float: left;
+    border: 1px solid #555;
+    border-radius: 2px;
+    background-color: rgb(55, 56, 54);
+    color:aliceblue;
+    text-align: center;
+  }
+  .info_div{
+    width: 69%;
+    height: 120px;
+    float: right;
+    border: 1px solid #555;
+    border-radius: 2px;
+    background-color: rgb(220, 230, 210);
+
+  }
+  .text {
+    margin-left: 15px;
+    margin-top: 50px;
+  }
+  .code_div {
+    display: block;
+    float: left; 
+    width: 48%;
+    border: none;
+    padding-left: 20px;
+  }
+
+  .page-footer {
+    height: 50px;
+  }
+
+  .page-footer p {
+    text-align: center;
+  }
