@@ -1,11 +1,13 @@
   .cv {
     height: 100%;
-    margin: 0;
+    margin: auto;
     padding: 0;
     font-size: 16px;
     line-height: 30px;
     font-weight: 600;
     color: black;
+    width: 80%;
+    background-color: black;
   }
   
   /* Header */
@@ -25,55 +27,87 @@
   }
   .header__boby a:hover {
     background-color:darkgray;
+    color: white;
   }
-  .photo__name__div{
+  /* Body */
+  .photo__name__div {
     width: 100%;
     height: 200px;
     background-color: beige;
+    display: inline-flex;
   }
-  .name__section{
-    float:left;
-    width:1020px;
-    height: 200;
-    margin-top: 0;
-    margin-left: 100;
-    margin-bottom: 0;
-    margin-right: 0;
-    font-size: 50;
+
+  .name__section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
   }
-  .photo__section{
+
+  .name__section_first {
+    margin-right: 5%;
+  }
+  .name__section_first,
+  .name__section_last {
+    font-size: 50px;
+  }
+
+  .name__section_last {
+    margin-left: 40%;
+  }
+  .photo__section {
     float:right;
     width:200px;
+    margin-left: auto;
   }
-  .about__me__div{
-    margin-left: 40;
+  .about__me__div {
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
     border: 1px;
-    background-color: chartreuse;
+    
+    display: inline;
   }
-  .topics_div{
+  .line__line {
+    display: inline;
+  }
+  .topics_div {
     width: 30%;
-    height: 100;
+    font-size: 30px;
+    height: 120px;
     float: left;
     border: 1px solid #555;
     border-radius: 2px;
-    background-color: chartreuse;
-    background-color: chartreuse;
+    background-color: rgb(55, 56, 54);
+    color:aliceblue;
+    text-align: center;
   }
   .info_div{
     width: 69%;
-    height: 100;
+    height: 120px;
     float: right;
-    
     border: 1px solid #555;
     border-radius: 2px;
-    background-color: chartreuse;
-  }
-  .separator__div{
-    background-color: blueviolet;
-    width: 100%;
-    height: 2px;
+    background-color: rgb(220, 230, 210);
+
   }
   .text {
     margin-left: 15px;
     margin-top: 50px;
+  }
+  .code_div {
+    display: block;
+    float: left; 
+    width: 48%;
+    border: none;
+    padding-left: 20px;
+  }
+
+  .page-footer {
+    height: 50px;
+  }
+
+  .page-footer p {
+    text-align: center;
   }

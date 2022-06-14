@@ -1,57 +1,140 @@
+<!DOCTYPE html>
 <html class="cv" lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Aleksandr Antipenko CV</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body class="page-body">
-        <header>
-            <nav class="header__boby">
-                <div class="header__div">
-                    <a href="https://docs.google.com/document/d/18m3HvV5o9Y6lwrNItja6qJBjqdGPKbn6bADLCytYlvQ" target="_blank">My real CV</a>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <div class="photo__name__div">
-                <section class="name__section">
-                    <h1>Aleksandr 
-                        <br>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Antipenko
-                    </h1>
-                </section>
-                <section class="photo__section">
-                    <img src="img\photo.png" alt="Antipenko" width="200px" height="200px">
-                </section>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleksandr Antipenko CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="page-body">
+    <header>
+        <nav class="header__boby">
+            <div class="header__div">
+                <a href="https://docs.google.com/document/d/18m3HvV5o9Y6lwrNItja6qJBjqdGPKbn6bADLCytYlvQ"
+                    target="_blank">My real CV</a>
             </div>
-            <div class="about__me__div">
+        </nav>
+    </header>
+    <main>
+        <div class="photo__name__div">
+            <div class="name__section">
+                <h1 class="name__section_first">Aleksandr</h1>
+                <p class="name__section_last">Antipenko</p>
+            </div>
+            <div class="photo__section">
+                <img src="img/photo.png" alt="Antipenko" width="200" height="200">
+            </div>
+        </div>
+        <div class="about__me__div">
+            <div class="line__line">
                 <div class="topics_div">
-                    <p  class="text">Contact information</p>
+                    <p class="text">Contact information</p>
                 </div>
                 <div class="info_div">
-                    <p  class="text">kortikrb@gmail.com OR 375(29)5113458</p>
-                </div>
-                <div class="topics_div" style="height: 300;">
-                    <p  class="text">About me</p>
-                </div>
-                <div class="info_div" style="height: 300;">
-                    <pre>
-                         I love my wife.
-                         I love my son.
-                         I love myself.
-                         I love sport games especially soccer.
-                         I worked as QA Lead/Manager about 3 years.
-                         I worked as PM last 1,5 years.
-                         I love reading and studying. 
-                         That's why I'm here.</pre>
+                    <ul>
+                        <li>Phone: +375 (29) 511-34-58</li>
+                        <li>Email: kortikrb@mail.ru / kortikrb@gmail.com</li>
+                        <li>Skype: kortikrb</li>
+                    </ul>
                 </div>
             </div>
-        </main>
-        <footer>
+            <div class="line__line"></div>
+            <div class="topics_div" style="height: 270px;">
+                <p class="text">About me</p>
+            </div>
+            <div class="info_div" style="height: 270px;">
+                <pre>
+    I love my wife.
+    I love my son.
+    I love myself.
+    I love sport games especially soccer.
+    I worked as QA Lead/Manager about 3 years.
+    I worked as PM last 1,5 years.
+    I love reading and studying. 
+    That's why I'm here.
+                        </pre>
+            </div>
+        </div>
+        <div class="line__line">
+            <div class="topics_div">
+                <p class="text">Skills</p>
+            </div>
+            <div class="info_div">
+                <ul>
+                    <li>Current skills(position based): Basic HTML, CSS, JS.</li>
+                    <li>I'm really good in Math.</li>
+                    <li>Current skills(out of position): Project Management / Quality Assurance.</li>
+                </ul>
+            </div>
+        </div>
+        <div class="line__line">
+            <div class="topics_div" style="height: 200px;">
+                <p class="text">Code Examples</p>
+            </div>
+            <div class="info_div" style="height: 200px;">
+                <div class="code_div" style="height:190px;">
+                    <code style="color: #1a73e8;" data-language="css">
+                                .header__boby a { <br>
+                                    &nbsp;&nbsp;padding: 14px 10px;<br>
+                                    &nbsp;&nbsp;line-height: 50px;<br>
+                                    &nbsp;&nbsp;color: black;<br>
+                                }
+                            </code>
+                </div>
+                <div class="icode_div">
+                    <code style="color: #1a73e8;" data-language="css">
+                                class Point {<br>
+                                    int x, y;<br>
+                                    void init(int x, int y) {<br>
+                                        this.x = x;<br>
+                                        this.y = y;<br>
+                                    }
+                                }
+                            </code>
+                </div>
+            </div>
+        </div>
+        <div class="line__line">
+            <div class="topics_div">
+                <p class="text">JOB Expirience</p>
+            </div>
+            <div class="info_div">
+                <ul>
+                    <li>As QA - 6 years.</li>
+                    <li>AS PM - 1,5 years.</li>
+                    <li>As university lecture - 3 years</li>
+                </ul>
+            </div>
+        </div>
+        <div class="line__line">
+            <div class="topics_div">
+                <p class="text">Education</p>
+            </div>
+            <div class="info_div">
+                <ul>
+                    <li>Vitebski Dzjaržauny Universitet imja P.M. Mašerova: Math/Programming.</li>
+                    <li>Stratoplan: Manager.</li>
+                    <li>RS school - FrontEnd Developer</li>
+                </ul>
+            </div>
+        </div>
+        <div class="line__line">
+            <div class="topics_div">
+                <p class="text">Languages</p>
+            </div>
+            <div class="info_div">
+                <ul>
+                    <li>Russian - Native</li>
+                    <li>Eglish - B1</li>
+                </ul>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer">
+        <p>RS school: 2022-2023</p>
+    </footer>
+</body>
 
-        </footer>
-    </body>
 </html>
-
- 
